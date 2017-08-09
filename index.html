@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="Thomas Condon" content="Personal Website">
+    <meta name="Keywords" content="Site, Keywords, go, here">
+
+    <title>Thomas Condon</title>
+
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/4f9965c911/UntitledProject/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    
+    <style>
+    * {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+header{
+  background-color: black;
+  width: 100%;
+  height: 750px;
+  /*border: 1px solid red;*/
+  position: relative;
+  background-image: url(../images/portfolio-background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  padding-top: 15px;
+}
+.my-name {
+  text-decoration: none;
+  color: #fed136;
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 30px;
+  font-family: 'Sacramento', cursive;
+}
+
+.nav-bar-sections {
+  text-decoration: none;
+  padding-left: 750px;
+}
+
+.about , .portfolio, .tech,.contact {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+                                              /*Opening Section*/
+.intro {
+  /*border: 1px solid blue;*/
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  text-align: center;
+}
+
+.intro-lead-in {
+color: white;
+margin-bottom: 25px;
+font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 40px;
+font-style: italic;
+line-height: 40px;
+}
+
+.intro-heading {
+color: white;
+margin-bottom: 50px;
+text-transform: uppercase;
+font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 55px;
+font-weight: 700;
+line-height: 55px
+}
+
+.intro-btn {
+padding: 20px 40px;
+border-color: #fed136;
+border-radius: 3px;
+text-transform: uppercase;
+font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 18px;
+font-weight: 700;
+text-decoration: none;
+color: #fff;
+background-color: #fed136;
+}
+
+
+
+                                            /*each section title*/
+.section-title {
+  text-align: center;
+  padding: 20px 40px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+                                            /*each section sub heading*/
+.sub-heading {
+  text-align: center;
+  padding: 20px 40px;
+  margin-bottom: 75px;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  text-decoration: none;
+  color: #777;
+}
+
+                                            /*each roles write up*/
+.timeline {
+  font-size: 16px;
+  display: block;
+  width: 50%;
+  padding: 0 20px 20px 30px;
+  text-align: right;
+  float: left;
+  border-right: 2px solid grey;
+
+}
+
+.technologies {
+  margin-top: 300px;
+}
+
+                                              /*companies logos*/
+.timeline-image {
+  display: block;
+  width: 48%;
+  padding: 0 20px 20px 30px;
+  float: right;
+  height: 150px;
+  weight: 250px;
+}
+
+                                                  /*Technology Section */
+.pic {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 0 20px 0 20px;
+
+
+}
+
+.tech-images {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+
+
+                                /*Contact Me CSS*/
+.contact-me-whole {
+  background-image: url(../images/contactme_logo.jpg);
+  height: 500px;
+}
+.CMT {
+  padding-right: 230px;
+  color: #fff
+}
+.contact-me {
+  padding-left: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  text-align: center;
+}
+.main-content{
+	float: left;
+	/*border: 1px solid red;*/
+	width: 600px;
+	margin-left: 40px;
+}
+
+ input {
+	display: block;
+	width: 600px;
+	margin-top: 10px;
+	background-color: #f6f6f6;
+	padding: 10px;
+}
+select {
+	width: 600px;
+}
+
+
+.visually-hidden{
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.checkbox {
+	display:block;
+	/*border: 1px solid red;*/
+}
+
+.checkbox p {
+	margin-left: 50px;
+	position: absolute;
+	bottom: 185px;
+	right: 780px;
+}
+.button {
+	width: 100px;
+	padding:10px;
+	background-color: #fed136;
+	color: white;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+
+#message {
+  height: 150px;
+  padding-bottom: 100px;
+}
+
+.icon-twitter:before {
+  content: "\ea96";
+  font-size: 25px;
+
+}
+.icon-linkedin-square:before {
+  content: "\e900";
+  font-size: 25px;
+}
+.icon-github:before {
+  content: "\eab0";
+  font-size: 25px;
+}
+
+.social-media-icons {
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  color: black;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+    
+    </style>
+    
+    
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <span class="nav-bar">
+          <a class='my-name' href="#">Thomas Condon</a>
+          <span class="nav-bar-sections">
+            <a class='about slide-section' href="#about">About</a>
+            <a class="tech slide-section"href="#technologies">Technologies</a>
+            <a class='portfolio slide-section' href="#portfolio">Portfolio</a>
+            <a class="contact slide-section"href="#contact-me">Contact</a>
+          </span>
+      </nav>
+      </span>
+      <div class="intro">
+        <h2 class="intro-lead-in">My name is Thomas</h2>
+        <h1 class="intro-heading">I'm a Web Developer</h1>
+        <a class="intro-btn" href="#">My Projects</a>
+      </div>
+
+    </header>
+
+
+    <main>
+      <section class="about" id="about">
+        <h1 class="section-title"> About </h1>
+        <p class="sub-heading">Below is a short timeline of my journey as a developer so far. I am really excited to get some commercial experience as a developer and work with a great team to help bring my skills forward and be part of something that millions of people use. Links to my social media accounts can be found at the bottom of the page. to download my CV click <a href="#"> here</a> </p>
+      </section>
+
+      <section class="timeline">
+        <h4>March 2017 The Beginning</h4>
+        <p class="text-muted">I started my journey as a developer in March 2017 by completing the 3 month front end web development course at General Assembly. I quickly found just how exciting it is being faced with new challenges and trying to come up with solutions to fix problems, not just on your own but also within a great community.</p>
+      </section>
+
+      <div class="timeline-image">
+
+        <img src="../tc-website/images/ga-logo.png" alt="">
+      </div>
+
+      <section class="technologies" id="technologies">
+        <h1 class="section-title">Technologies</h1>
+        <p class="sub-heading">Languages and frameworks I have used.</p>
+
+        <div class="tech-images">
+          <div class="pic"><img src="../tc-website/images/javascript_logo.png" alt=""> </div>
+          <div class="pic"><img src="../tc-website/images/css_logo.png" alt=""></div>
+          <div class="pic"><img src="../tc-website/images/html_logo.png" alt=""></div>
+          <div class="pic"><img src="../tc-website/images/sass_logo.png" alt=""></div>
+
+          <h4 class="sub-heading">Here is a selection on languages and frameworks I have used while studying at General Assembly and in my own projects. I am currently in the process of learning Node.JS and Swift through Team Tree House. I use a mac OS environment for development and use git for version control.</h4>
+
+          <div class="pic"><img src="../tc-website/images/jquery_logo.png" alt=""> </div>
+          <div class="pic"><img src="../tc-website/images/bootstrap_logo.png" alt=""></div>
+          <div class="pic"><img src="../tc-website/images/wordpress_logo.jpg" alt=""></div>
+          <div class="pic"><img src="../tc-website/images/swift_logo.png" alt=""></div>
+        </div>
+      </section>
+
+      <!-- <section class="portfolio" id="portfolio">
+        <h1 class="section-title">Portfolio</h1>
+        <p class="sub-heading">A few of my projects</p>
+
+        <dev class="projects">
+          <div class="pro">Project 1</div>
+          <div class="pro">Porject 2</div>
+          <div class="pro">Project 3</div>
+          <div class="pro">Project 4</div>
+        </div>
+
+      </section> -->
+
+      <section class="contact-me-whole">
+        <div class="contact-me" id="contact-me">
+        <h1 class="section-title CMT">Contact Me</h1>
+          <p class="CMT">Get in touch using the form, I'd love to hear from you! Alternatively mail me at thomascndn@gmail.com</p>
+
+        <form>
+          <label class="visually-hidden"> Your Full Name</label>
+          <input type="text" name="full-name" id="full-name" placeholder="Your Full Name" required>
+
+          <label class="visually-hidden">Your Email</label>
+          <input type="Email" name="email" id="Email" placeholder="Your Email" required>
+
+          <label class="visually-hidden">Message</label>
+          <input type="text" name="message" id="message" placeholder="Your Message..." required>
+        </form action="#" method="#">
+          <form>
+            <input type="submit" value="Continue" class="button">
+          </form>
+        </div>
+
+
+
+
+      </section>
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+  <footer>
+    <div class="social-media-icons">
+      <a href="https://twitter.com/"><span class="icon-twitter"></span></a>
+      <a href="https://www.linkedin.com/in/thomas-condon-79644484/"><span class="icon-linkedin-square"></span></a>
+      <a href="https://github.com/TommyTap11"><span class="icon-github"></span></a>
+    </div>
+
+
+  </footer>
+
+  <script src="javascript/main.js"></script>
+  <script src="javascript/jquery-3.2.1.slim.js"></script>
+  <script src="javascript/navshrink.js"></script>
+
+
+  </script>
+  </Body>
